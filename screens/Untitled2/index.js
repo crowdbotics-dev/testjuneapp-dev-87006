@@ -10,7 +10,10 @@ const Untitled2 = () => {
       padding: 10,
       position: "relative",
       flex: 1
-    }}><ImageBackground style={styles.aseHMIAt} source={require("./Dragon3.jpg")} resizeMode="cover"></ImageBackground><Text style={styles.yxQEQInv}>Lorem ipsum…</Text></ScrollView>
+    }}>
+        <ImageBackground style={styles.aseHMIAt} source={require("./Dragon3.jpg")} resizeMode="cover"></ImageBackground>
+        <Text style={styles.yxQEQInv}>Lorem ipsum…</Text>
+      </ScrollView>
     </SafeAreaView>;
 };
 
